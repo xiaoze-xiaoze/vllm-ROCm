@@ -214,7 +214,6 @@ requires = [
 ``` bash
 # 基础层：运行时 + 网络 + Web
 # Base Layer: Runtime + Networking + Web Stack
-# Base Layer: Runtime + Networking + Web Stack
 micromamba install -y uvloop aiohttp pyzmq fastapi prometheus_client prometheus-fastapi-instrumentator
 
 # AI 层：模型 + 推理 + 约束
